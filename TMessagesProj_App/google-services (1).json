@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "846515120383",
+    "project_id": "encogram-d4292",
+    "storage_bucket": "encogram-d4292.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846515120383:android:49dcf1525092f362d084ca",
+        "android_client_info": {
+          "package_name": "org.enco.engram.beta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzJ3Gn0v2NK5rluJbWzLQ4vmrWeUcxwSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
