@@ -1,3 +1,4 @@
+
 package org.telegram.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
@@ -164,7 +165,8 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
     private ActionBarMenuItem searchItem, otherItem;
     private String query;
     private ProfileActivity.SearchAdapter search;
-
+    private int encogramRow;
+    
     private ImageUpdater imageUpdater;
     private AnimatorSet avatarAnimation;
     private RadialProgressView avatarProgressView;
@@ -620,6 +622,10 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
         }
 
         items.add(UItem.asCustomShadow(topView, 200 - 12));
+        Items.add(UItem.asSettingsCell("EncoGram", R.drawable.menu_settings, () -> {
+    presentFragment(new EncoGramSettingsActivity());
+}));
+        
 
         accountNumbers.clear();
         for (int a = 0; a < UserConfig.MAX_ACCOUNT_COUNT; a++) {
